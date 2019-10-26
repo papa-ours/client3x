@@ -1,0 +1,8 @@
+{
+  "name": "Fifa3X",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

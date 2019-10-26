@@ -1,0 +1,32 @@
+li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.4s ease-out;
+
+  &:hover {
+    .name {
+      color: var(--ion-color-light);
+    }
+
+    .max {
+      color: var(--ion-color-light-shade);
+    }
+
+    background: var(--ion-color-primary-tint);
+    transform: scale(1.04);
+  }
+
+  .name {
+    color: var(--ion-color-dark);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .max {
+    color: var(--ion-color-dark-shade);
+    font-weight: 500;
+    margin-top: 4px;
+  }
+}

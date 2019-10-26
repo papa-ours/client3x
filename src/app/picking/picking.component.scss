@@ -1,0 +1,29 @@
+li {
+  list-style: none;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.4s ease-out;
+  color: var(--ion-color-dark);
+  font-weight: 600;
+  margin-bottom: 4px;
+  cursor: pointer;
+
+  &.blocked {
+    cursor: not-allowed;
+  }
+
+  &:hover:not(.blocked) {
+    color: var(--ion-color-light);
+    background: var(--ion-color-primary-tint);
+    transform: scale(1.04);
+  }
+
+  &.blocked {
+    background: var(--ion-color-danger);
+  }
+
+  &.picked {
+    background: var(--ion-color-success);
+    color: var(--ion-color-light-shade);
+  }
+}

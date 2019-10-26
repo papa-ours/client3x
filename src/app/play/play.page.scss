@@ -1,0 +1,31 @@
+ion-button {
+  position: relative;
+  left: 1%;
+  width: 98%;
+}
+
+ion-input {
+  font-size: 18px;
+}
+
+ion-card-content {
+  padding-top: 10px;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.4s ease-out;
+  color: var(--ion-color-dark);
+  font-weight: 600;
+  margin-bottom: 4px;
+
+  &:hover {
+    color: var(--ion-color-light);
+    background: var(--ion-color-primary-tint);
+    transform: scale(1.04);
+  }
+
+}

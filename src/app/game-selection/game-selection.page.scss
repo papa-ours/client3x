@@ -1,0 +1,20 @@
+ion-card {
+  ion-card-header {
+    background: var(--ion-color-primary-shade);
+    border-radius: 8px 8px 0px 0px;
+
+    ion-card-title {
+      margin-top: 0px;
+      font-size: 26px;
+      font-weight: 600;
+      padding: 2px;
+      color: var(--ion-color-light);
+    }
+
+    ion-card-subtitle {
+      color: var(--ion-color-primary-contrast);
+    }
+  }
+  overflow: visible;
+  border-radius: 8px;
+}

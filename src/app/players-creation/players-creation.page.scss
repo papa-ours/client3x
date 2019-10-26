@@ -1,0 +1,11 @@
+ion-buttons ~ ion-button, ion-buttons {
+  position: relative;
+  left: 1%;
+  width: 98%;
+}
+
+ion-buttons > ion-button {
+  position: relative;
+  left: 1%;
+  width: 48%;
+}

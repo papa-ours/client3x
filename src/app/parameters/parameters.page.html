@@ -1,0 +1,30 @@
+<ion-content>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size-sm="1" size-xs="0" size-md="2" size-lg="3" size-xl="4"></ion-col>
+      <ion-col size-xs="12" size-sm="10" size-md="8" size-lg="6" size-xl="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-icon (click)="goToGameSelection()" name="close"></ion-icon>
+            <ion-card-subtitle>Choose your</ion-card-subtitle>
+            <ion-card-title>Parameters</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item>
+              <ion-label position="floating">Number of choices :</ion-label>
+              <ion-input type="number" min="1" [(ngModel)]="numberOfChoices"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Number of blocks :</ion-label>
+              <ion-input type="number" min="0" max="{{numberOfChoices - 1}}" [(ngModel)]="numberOfBlocks"></ion-input>
+            </ion-item>
+            <ion-button color="success" (click)="sendParameters()">
+              OK
+            </ion-button>
+          </ion-card-content> 
+        </ion-card>
+      </ion-col>
+      <ion-col size-sm="1" size-xs="0" size-md="2" size-lg="3" size-xl="4"></ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
