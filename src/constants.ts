@@ -1,1 +1,1 @@
-export const SERVER_ADDRESS = 'http://192.168.0.11:5000/';
+export const SERVER_ADDRESS = 'http://radiant-dusk-15609.herokuapp.com/';
